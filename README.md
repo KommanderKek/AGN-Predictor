@@ -2,14 +2,14 @@
 Introduction:
 The goal of this project is to use machine learning models trained off of telescope and satellite data to classify previously unknown sources in the sky. Currently the only classification is active galaxy nuclei or not.
 
-This project is heavilly inspired by Dr. Sabrina Einecke's 2017 dissertation "A Data Mining Guide to the Galaxy" where she utilizes multi-wavelength data to make AGN and blazar random forest classification models.
+This project is heavily inspired by Dr. Sabrina Einecke's 2017 dissertation "A Data Mining Guide to the Galaxy" where she utilizes multi-wavelength data to make AGN and blazar random forest classification models.
 
 Classification:
 Active galaxy nucleus (AGN), or opposingly, non active galaxy nucleus (NAG)
 
 Model and essential libraries:
 Random forest classifier from the scikit-learn python library.
-astropy library to read .fits files into Astropy Tables for processing
+astropy library to read .fits files into astropy Tables for processing
 numpy and pandas libraries for more data processing
 
 Data:
