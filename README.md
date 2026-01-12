@@ -5,7 +5,7 @@ The goal of this project is to use machine learning models trained off of telesc
 This project is heavily inspired by Dr. Sabrina Einecke's 2017 dissertation "A Data Mining Guide to the Galaxy" where she utilizes multi-wavelength data to make AGN and blazar random forest classification models.
 
 Classification:
-Active galaxy nucleus (AGN), or opposingly, non active galaxy nucleus (NAG)
+Active galaxy nucleus (AGN) or non active galaxy nucleus (NAG). Some sources are classified as unknown (UNK), and the model, once trained and optimized, will predict these sources as AGN or NAG.
 
 Model and essential libraries:
 Random forest classifier from the scikit-learn python library.
