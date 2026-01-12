@@ -53,7 +53,7 @@ Fermi's RA_Counterpart and DEC_Counterpart features are the coordinates of the m
 
 Once we have one matched Swift source for every Fermi source, we can combine the catalogues together. To do this efficiently, we can use the astropy hstack() function which appends one astropy table to another. We can append the tables column-wise once the two tables are matched by row (each row of the Swift table is the matched Swift source of the Fermi source of the same row). Simply put, each Fermi source then gains the columns from its matched Swift source.
 
-Once the catalogues are combined, and after pre-processing which is explained in the next section, our combined Fermi-Swift table has 1,967 rows and 126 columns.
+Once the catalogues are combined, and after pre-processing which is explained in the next section, our combined Fermi-Swift table has 1,967 rows and 126 columns. The table is made up of 1,630 AGN, 164 NAG, and 173 UNK.
 
 Pre-processing (FermiPreProcess.py and SwiftPreProcess.py):
 
