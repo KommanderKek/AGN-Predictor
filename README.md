@@ -92,9 +92,9 @@ While the classification is primarily driven by gamma-ray variability and spectr
 
 Application (ModelApplication.py):
 
-The following are the results. The final dataset used is the merged Fermi-Swift table made up of 1,630 AGN, 164 NAG, 173 UNK, and 16 feature columns. The model was trained on training subset of this dataset including all of the known classifications (1,630 AGN and 164 NAG), using n_estimators = 600, min_samples_split = 4, max_depth = None, and class_weight = "balanced_subsample." The model is then applied to the 173 UNK samples to predict whether they are AGN or NAG. For repeatability to my results, I used random_state = 1
+The following are the results. The final dataset used is the merged Fermi-Swift table made up of 1,630 AGN, 164 NAG, 173 UNK, and 16 feature columns. The model was trained on training subset of this dataset including all of the known classifications (1,630 AGN and 164 NAG), using n_estimators = 600, min_samples_split = 4, max_depth = None, and class_weight = "balanced_subsample." The model is then applied to the 173 UNK samples to predict whether they are AGN or NAG. For repeatability to my results, I used random_state = 1.
 
-Out of the 173 UNK sources, 108 of them are classified as high confidence AGN, 11 of them low confidence AGN, 37 high confidence NAG, and 17 low confidence NAG. High confidence meaning that the probability of that particular class >= 0.7, and low confidence meaning probability >= 0.5 but < 0.7.
+Out of the 173 UNK sources, 108 of them are classified as high confidence AGN, 11 of them low confidence AGN, 37 high confidence NAG, and 17 low confidence NAG. High confidence meaning that the probability of that particular class >= 0.7, and low confidence meaning probability >= 0.5 but < 0.7. This results in 68.8% AGN classification and 31.2% NAG classification.
 
 Below are the specific ID Names, data release, and RA and DEC coordinates in degrees of the prediction results
 
